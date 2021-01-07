@@ -12,6 +12,7 @@ Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasik
 </ul>
 
 # Anggota Kelompok 
+S1S303B Software Engineer
 <ol>
 <li>Teguh Rijanandi          (19104008)</li>
 <li>Muhammad Arif Saputra    (19104012)</li>
