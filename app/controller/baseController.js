@@ -1,6 +1,7 @@
 const controller            = require("../controller");
 const productController     = require("./productController");
 const customerController    = require("./customerController")
+const orderController       = require("./orderController")
 
 /**
  * Controller utama yang 
@@ -38,7 +39,7 @@ class baseController extends controller {
 
                 case '3':
                     // @ Data order
-
+                    orderController.index()
                     looping = 0
                     break;
 
