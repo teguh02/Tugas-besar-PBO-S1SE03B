@@ -21,3 +21,6 @@ S1S303B Software Engineer
 <li>Muhammad Arif Saputra    (19104012)</li>
 <li>Irsyad Dzulfikar         (19104040)</li>
 </ol>
+
+# Class Diagram
+![Tubes PBO](https://user-images.githubusercontent.com/43981051/103871799-18a13500-5100-11eb-97ff-57ee081db70f.jpg)
