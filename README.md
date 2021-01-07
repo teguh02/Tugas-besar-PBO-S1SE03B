@@ -1,4 +1,7 @@
 # Tugas Besar Praktikum Pemrograman Berbasis Objek
+![Logo-ITTP](https://user-images.githubusercontent.com/43981051/103869569-12f62000-50fd-11eb-86ef-657fdb81da3f.png)
+<br>
+
 Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasikan :
 
 <ul>
