@@ -29,3 +29,11 @@ S1S303B Software Engineer
 Kode javascript pada class diagram diatas dapat ditemukan didalam file model dari tiap tiap bagian database.
 Silahkan lihat semua model databasenya disini
 https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree/tubesPbo/app/models
+
+# Struktur Folder
+<ul>
+<li>app : untuk menyimpan semua file file controller dan model database</li> 
+<li>database : untuk menyimpan file file database berupa json, file database ini akan di kelola oleh model tadi</li>
+<li>node_modules : untuk menyimpan semua file file module yang diperlukan milik node js</li>
+<li>views : untuk menyimpan semua file view yang akan tampil ketika file tersebut dipanggil oleh method <code>super.view()</code> </li> 
+</ul>
