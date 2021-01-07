@@ -2,7 +2,7 @@
 Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasikan :
 
 <ul>
-<li>MVC (Model View Controller</li>
+<li>MVC (Model View Controller) </li>
 <li>View template</li>
 <li>Inheritance class dalam javascript</li>
 <li>Abstrak class dalam javascript</li>
