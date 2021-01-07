@@ -12,6 +12,7 @@ Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasik
 <li>Static method</li>
 <li>Constructor dalam class</li>
 <li>Node module exports</li>
+ <li>Database dengan file JSON</li>
 </ul>
 
 # Anggota Kelompok 
@@ -25,4 +26,6 @@ S1S303B Software Engineer
 # Class Diagram
 ![Tubes PBO](https://user-images.githubusercontent.com/43981051/103871799-18a13500-5100-11eb-97ff-57ee081db70f.jpg)
 
-Kode javascript pada class diagram diatas dapat ditemukan didalam file model dari tiap tiap bagian database
+Kode javascript pada class diagram diatas dapat ditemukan didalam file model dari tiap tiap bagian database.
+Silahkan lihat semua model databasenya disini
+https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree/tubesPbo/app/models
