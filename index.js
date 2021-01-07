@@ -11,6 +11,7 @@
  *  - Static method
  *  - Constructor dalam class
  *  - Node module exports
+ *  - Database dengan file JSON
  *  
  * Kelompok 2 - S1SE03B
  * Anggota : 
