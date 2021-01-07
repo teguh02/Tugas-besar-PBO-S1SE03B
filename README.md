@@ -36,4 +36,6 @@ https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree
 <li>database : untuk menyimpan file file database berupa json, file database ini akan di kelola oleh model tadi</li>
 <li>node_modules : untuk menyimpan semua file file module yang diperlukan milik node js</li>
 <li>views : untuk menyimpan semua file view yang akan tampil ketika file tersebut dipanggil oleh method <code>super.view()</code> </li> 
+ 
+Struktur folder akan dijelaskan lebih lengkap pada bagian penjelasan
 </ul>
