@@ -24,3 +24,5 @@ S1S303B Software Engineer
 
 # Class Diagram
 ![Tubes PBO](https://user-images.githubusercontent.com/43981051/103871799-18a13500-5100-11eb-97ff-57ee081db70f.jpg)
+
+Kode javascript pada class diagram diatas dapat ditemukan didalam file model dari tiap tiap bagian database
