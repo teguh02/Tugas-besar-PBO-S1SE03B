@@ -15,7 +15,7 @@ class productController extends controller {
             var menu = super.ask("Pilih menu > ")
 
             // menu dibawah ini mengacu dalam file
-            // produk.js (didalam view folder)
+            // produk.js (didalam folder produk)
             switch (menu) {
                 case '1':
                     // @ Lihat semua produk

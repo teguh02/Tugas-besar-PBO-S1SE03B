@@ -33,13 +33,23 @@ class orderModel {
         if(this.result.length > 0) {
             this.result.push(data)
             var json = JSON.stringify(this.result)
-            this.fs.writeFileSync(this.fileLocation, json, 'utf8', err => {})
+            this.fs.writeFileSync(this.fileLocation, json, 'utf8', err => {
+                if (err) {
+                    console.log("Gagal menyimpan kedalam database");
+                } else {
+                    console.log("Berhasil menyimpan kedalam database");
+                }
+            })
         } else {
             var json = JSON.stringify(data)
-            this.fs.writeFileSync(this.fileLocation, json, 'utf8', err => {})
+            this.fs.writeFileSync(this.fileLocation, json, 'utf8', err => {
+                if (err) {
+                    console.log("Gagal menyimpan kedalam database");
+                } else {
+                    console.log("Berhasil menyimpan kedalam database");
+                }
+            })
         }
-
-        return true
     }
 
     /**
@@ -57,8 +67,13 @@ class orderModel {
         var json = JSON.stringify(temp)
 
         this.fs.truncateSync(this.fileLocation, 0, () => {})
-        this.fs.writeFileSync(this.fileLocation, json, 'utf8', () => {})
-        return true
+        this.fs.writeFileSync(this.fileLocation, json, 'utf8', err => {
+            if (err) {
+                console.log("Gagal menyimpan kedalam database");
+            } else {
+                console.log("Berhasil menyimpan kedalam database");
+            }
+        })
     }
 }
 

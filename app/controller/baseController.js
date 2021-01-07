@@ -1,5 +1,6 @@
 const controller            = require("../controller");
 const productController     = require("./productController");
+const customerController    = require("./customerController")
 
 /**
  * Controller utama yang 
@@ -31,6 +32,7 @@ class baseController extends controller {
 
                 case '2':
                     // @ Customer
+                    customerController.index()
                     looping = 0
                     break;
 
@@ -50,9 +52,7 @@ class baseController extends controller {
                     break;
             }    
         }
-
     }
-
 }
 
 module.exports = baseController

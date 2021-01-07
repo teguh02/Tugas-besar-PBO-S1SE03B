@@ -30,7 +30,7 @@ class controller {
     }
 
     /**
-     * Return to view file
+     * to load view file (inside views folder)
      * @param {String} viewName 
      */
     static view(viewName, data = []) {
