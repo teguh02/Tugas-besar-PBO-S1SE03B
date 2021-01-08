@@ -33,7 +33,7 @@ class baseController extends controller {
             
             } else {
                 kesempatanLogin--
-                console.log("\nUsername atau password salah, kamu punya " + kesempatanLogin + " lagi\n");    
+                console.log("\nUsername atau password salah, kamu punya " + kesempatanLogin + " kesempatan lagi\n");    
             }   
         }
 

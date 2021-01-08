@@ -63,6 +63,22 @@ class orderController extends controller {
                 case '3':
                     // Hapus data order
                     console.log("@ Hapus data order");
+
+                    // tampilkan semua data ordernya dulu
+                    super.view("order/lihatSemua", order.all(), controller)
+
+                    console.log("");
+
+                    var dataOrderYangAkanDihapus = super.ask("Masukan id order yang akan dihapus : ")
+                    var persetujuan = super.ask("Apakah kamu yakin ingin menghapus (y/n) : ")
+
+                    if(persetujuan === "Y" || persetujuan === 'y') {
+                        order.delete(dataOrderYangAkanDihapus)
+                        console.log("Berhasil menghapus data");
+                    } else {
+                        console.log("Gagal hapus data");
+                    }
+
                     break;
 
                 case 'x':
