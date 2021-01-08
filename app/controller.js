@@ -33,8 +33,19 @@ class controller {
      * to load view file (inside views folder)
      * @param {String} viewName 
      */
-    static view(viewName, data = []) {
-        require("../views/" + viewName)(data)
+    static view(viewName, data = [], data2 = []) {
+        require("../views/" + viewName)(data, data2)
+    }
+
+    /**
+     * To return number as rupiah format
+     * @param {Int} number 
+     */
+    static formatRupiah(bilangan) {
+        var	reverse = bilangan.toString().split('').reverse().join(''),
+	    ribuan 	= reverse.match(/\d{1,3}/g);
+        ribuan	= ribuan.join('.').split('').reverse().join('');
+        return "Rp. " + ribuan
     }
 }
 

@@ -24,8 +24,6 @@ class customerModel {
         for (let i = 0; i < result.length; i++) {
             if(result[i].code === code) {
                 return result[i]
-            } else {
-                console.error("Produk " + code + " tidak ditemukan!");
             }
         }
     }

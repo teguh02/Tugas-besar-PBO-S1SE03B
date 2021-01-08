@@ -20,7 +20,12 @@ class orderController extends controller {
                 case '1':
                     // Lihat semua order
                     console.log("@ Lihat semua order");
-                    super.view("order/lihatSemua", order.all())
+
+                    // alihkan ke halaman lihatSemua.js 
+                    // dengan membawa data produknya
+                    // dan membawa data parent controllernya juga
+                    // untuk memanggil class formatRupiah
+                    super.view("order/lihatSemua", order.all(), controller)
                     break;
 
                 case '2':

@@ -23,7 +23,11 @@ class productController extends controller {
 
                     var allProduct = produk.all()
                     
-                    super.view("produk/tampilkanProduk", allProduct)
+                    // alihkan ke halaman tampilkanProduk.js 
+                    // dengan membawa data produknya
+                    // dan membawa data parent controllernya juga
+                    // untuk memanggil class formatRupiah
+                    super.view("produk/tampilkanProduk", allProduct, controller)
                     break
 
                 case '2':
