@@ -2,10 +2,10 @@
 ![Logo-ITTP](https://user-images.githubusercontent.com/43981051/103869569-12f62000-50fd-11eb-86ef-657fdb81da3f.png)
 <br>
 
-<p>Demo Projek</p>
+<div>Demo Projek</div>
 https://repl.it/@teguh02/tubesPbo
 
-<p>Dokumentasi PDF</p>
+<div>Dokumentasi PDF</div>
 https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/blob/tubesPbo/Tugas%20Besar%20PBO%20Kelompok%202.pdf
 
 <br>
