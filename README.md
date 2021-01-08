@@ -8,6 +8,8 @@ https://repl.it/@teguh02/tubesPbo
 <div>Dokumentasi PDF</div>
 https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/blob/tubesPbo/Tugas%20Besar%20PBO%20Kelompok%202.pdf
 
+<br>
+
 Implementasi OOP Javascript, selain implementasi OOP, kami juga mengimplementasikan :
 
 <ul>
