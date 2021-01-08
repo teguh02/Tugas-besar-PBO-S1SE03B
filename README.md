@@ -17,6 +17,11 @@ Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasik
 <li>3 kali gagal login, program berhenti berjalan</li>
 </ul>
 
+<hr>
+
+![percobaanlogin](https://user-images.githubusercontent.com/43981051/103970522-0922fa00-519b-11eb-812e-124594800ee8.gif)
+
+
 # Anggota Kelompok 
 S1S303B Software Engineer
 <ol>
