@@ -18,11 +18,13 @@ class customerController extends controller {
             // index.js (didalam folder customer)
             switch (menu) {
                 case '1':
+                    // Lihat semua customer
                     console.log("@ Lihat semua customer")
                     super.view("customer/tampilkanSemua", customer.all())
                     break;
 
                 case '2':
+                    // Tambah customer
                     console.log("@ Tambah Customer");
 
                     var data = {
@@ -36,6 +38,7 @@ class customerController extends controller {
                     break;
 
                 case '3':
+                    // Hapus customer
                     console.log("@ Hapus Customer");
                     super.view("customer/tampilkanSemua", customer.all())
                 
@@ -54,8 +57,10 @@ class customerController extends controller {
                     break;
 
                 case 'x':
+                    // Kembali
                     loop = 0
-                    console.log("Bye...");
+                    const baseController = require("./baseController")
+                    baseController.mainMenu()
                     break;
             
                 default:

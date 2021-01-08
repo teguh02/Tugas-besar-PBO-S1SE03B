@@ -68,9 +68,10 @@ class productController extends controller {
                     break;
 
                 case 'x':
-                    // @ Keluar
-                    console.log("Bye...");
+                    // @ Kembali
                     loop = 0
+                    const baseController = require("./baseController")
+                    baseController.mainMenu()
                     break
             
                 default:

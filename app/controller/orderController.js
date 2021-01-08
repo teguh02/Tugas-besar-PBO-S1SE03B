@@ -56,7 +56,13 @@ class orderController extends controller {
                         productQty: super.ask("Masukan pembelian barang : ")
                     }
 
+                    // simpan data kedalam database order
                     order.save(data)
+
+                    // kurangi stok pada produk yang dipilih dengan jumlah pembelian barang
+                    // yang sudah ditetapkan
+                    produk.subtractQty(data.productSKU, data.productQty)
+
                     console.log("Berhasil menyimpan kedalam database..");
                     break;
 
@@ -82,9 +88,10 @@ class orderController extends controller {
                     break;
 
                 case 'x':
-                    // keluar
-                    console.log("Bye..");
+                    // kembali
                     loop = 0
+                    const baseController = require("./baseController")
+                    baseController.mainMenu()
                     break;
             
                 default:

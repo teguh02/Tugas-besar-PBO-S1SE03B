@@ -4,5 +4,5 @@ module.exports = () => {
     console.log("1. Lihat semua customer");
     console.log("2. Tambah customer");
     console.log("3. Hapus customer");
-    console.log("x. Keluar");
+    console.log("x. kembali");
 }

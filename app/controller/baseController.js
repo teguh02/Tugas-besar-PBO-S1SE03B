@@ -76,8 +76,16 @@ class baseController extends controller {
 
                 case 'x' :
                     // @ Keluar
-                    console.log("Bye...");
-                    looping = 0
+
+                    var yakinInginkeluar = super.ask("Apakah kamu yakin ingin keluar? (y/n) : ")
+
+                    if(yakinInginkeluar === "Y" || yakinInginkeluar === "y") {
+                        console.log("Bye...");
+                        looping = 0
+                    } else {
+                        console.log("Yeay.. gak jadi keluar");
+                    }
+
                     break;
             
                 default:
