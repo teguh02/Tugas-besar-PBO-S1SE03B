@@ -12,6 +12,10 @@
  *  - Constructor dalam class
  *  - Node module exports
  *  - Database dengan file JSON
+ *  - Login dengan password yang sudah di enrkipsi sebelumnya
+ *    Silahkan buka file controller.js dan kamu akan menemukan
+ *    username dan password yang sudah di enrkipsi
+ *  - 3 kali gagal login, program berhenti berjalan
  *  
  * Kelompok 2 - S1SE03B
  * Anggota : 

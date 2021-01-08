@@ -47,6 +47,39 @@ class controller {
         ribuan	= ribuan.join('.').split('').reverse().join('');
         return "Rp. " + ribuan
     }
+
+    /**
+     * To verify a hashed password
+     * @param {String} password 
+     * @param {String} hashedPassword 
+     */
+    static passwordVerify(password, hashedPassword) {
+        const passwordHash = require('password-hash');
+        return passwordHash.verify(password, hashedPassword)
+    }
+
+    /**
+     * To hash a text
+     * @param {String} password 
+     */
+    static passwordHash(password) {
+        const passwordHash = require('password-hash');
+        return passwordHash.generate(password)
+    }
+
+    /**
+     * To get kasir username
+     */
+    static getKasirUsername() {
+        return "admin"
+    }
+
+    /**
+     * To get kasir hashed password
+     */
+    static getKasirHashedPassword() {
+        return "sha1$e0f96032$1$06be4a04e2f3a963931a24631be91262a6df3011"
+    }
 }
 
 module.exports = controller

@@ -13,9 +13,40 @@ class baseController extends controller {
     
     static index() {
 
+        var kesempatanLogin = 3
+
+        while (kesempatanLogin > 0) {
+            super.view('loginPage')
+
+            var username = super.ask("Masukan username : ")
+            var password = super.ask("Masukan password : ")
+
+            // Mencocokan apakah detail login yang diinputkan
+            // sama dengan detail login yang ada di sistem
+            if (
+                username === super.getKasirUsername() &&
+                super.passwordVerify(password, super.getKasirHashedPassword())
+            ) {
+                // var baseController = new this
+                kesempatanLogin = 0
+                return this.mainMenu()
+            
+            } else {
+                kesempatanLogin--
+                console.log("\nUsername atau password salah, kamu punya " + kesempatanLogin + " lagi\n");    
+            }   
+        }
+
+        // jika kesempatan login sudah habis
+        console.log("\nPeringatan : Apakah kamu ingin meretas aplikasi ini?");
+        console.log("Sistem berhenti!");
+    }
+
+    static mainMenu() {
         var looping = 1
         while (looping > 0) {
             
+            console.log("");
             super.view("index")
         
             var menu = super.ask("Pilih menu > ")
@@ -46,6 +77,7 @@ class baseController extends controller {
                 case 'x' :
                     // @ Keluar
                     console.log("Bye...");
+                    looping = 0
                     break;
             
                 default:

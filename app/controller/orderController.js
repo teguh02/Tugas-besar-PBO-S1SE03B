@@ -5,9 +5,13 @@ class orderController extends controller {
     static index() {
 
         const orderModel = require("../models/orderModel")
+        const product = require('../models/productModel');
+        const customerModel = require("../models/customerModel")
 
         var loop = 1
         var order = new orderModel
+        var produk = new product
+        var customer = new customerModel
 
         // menu dibawah ini mengacu dalam file
         // index.js (didalam folder order)
@@ -31,6 +35,29 @@ class orderController extends controller {
                 case '2':
                     // Tambah data order
                     console.log("@ Tambah data order");
+
+                    // tampilkan semua produk yang ada
+                    console.log("# Data produk");
+                    super.view("produk/tampilkanProduk", produk.all(), controller)
+
+                    console.log("\n--- Pembatas ---\n");
+
+                    // tampilkan semua pelanggan yang ada
+                    console.log("# Data pelanggan");
+                    super.view("customer/tampilkanSemua", customer.all())
+
+                    console.log("");
+
+                    console.log("\nMenambahkan data order baru");
+                    var data = {
+                        id: super.ask("Masukan id transaksi : "),
+                        customerCode: super.ask("Masukan kode pelanggan yang ada : "),
+                        productSKU: super.ask("Masukan sku produk yang ada : "),
+                        productQty: super.ask("Masukan pembelian barang : ")
+                    }
+
+                    order.save(data)
+                    console.log("Berhasil menyimpan kedalam database..");
                     break;
 
                 case '3':
