@@ -13,7 +13,7 @@ Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasik
 <li>Constructor dalam class</li>
 <li>Node module exports</li>
 <li>Database dengan file JSON</li>
-<li>Login dengan password yang sudah di enrkipsi sebelumnya. Silahkan buka file controller.js dan kamu akan menemukan username dan password yang sudah di enrkipsi </li>
+<li>Login dengan password yang sudah di enrkipsi sebelumnya. Silahkan buka file controller.js dan kamu akan menemukan username dan password yang sudah di enrkipsi https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree/tubesPbo/app </li>
 <li>3 kali gagal login, program berhenti berjalan</li>
 </ul>
 
