@@ -2,7 +2,10 @@
 ![Logo-ITTP](https://user-images.githubusercontent.com/43981051/103869569-12f62000-50fd-11eb-86ef-657fdb81da3f.png)
 <br>
 
-Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasikan :
+Demo Projek
+https://repl.it/@teguh02/tubesPbo
+
+Implementasi OOP Javascript, selain implementasi OOP, kami juga mengimplementasikan :
 
 <ul>
 <li>MVC (Model View Controller) </li>
@@ -16,6 +19,9 @@ Implementasi OOP Javascript selain implementasi OOP, kami juga mengimplementasik
 <li>Login dengan password yang sudah di enrkipsi sebelumnya. Silahkan buka file controller.js dan kamu akan menemukan username dan password yang sudah di enrkipsi https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree/tubesPbo/app </li>
 <li>3 kali gagal login, program berhenti berjalan</li>
 </ul>
+
+Pada projek ini, kami membuat sebuah program kasir sederhana yang mampu menampilkan, membuat dan menghapus data customer data produk dan data order, ketika kita menambah data
+order baru maka stok produk yang ada akan berkurang mengikuti jumlah pemesanan barang yang ada
 
 <hr>
 
