@@ -31,7 +31,7 @@ order baru maka stok produk yang ada akan berkurang mengikuti jumlah pemesanan b
 <hr>
 
 ![percobaanlogin](https://user-images.githubusercontent.com/43981051/103970522-0922fa00-519b-11eb-812e-124594800ee8.gif)
-
+![3-kali-gagal-login](https://user-images.githubusercontent.com/43981051/104000879-705ba100-51d1-11eb-9ed6-31d743432320.gif)
 
 # Anggota Kelompok 
 S1S303B Software Engineer
