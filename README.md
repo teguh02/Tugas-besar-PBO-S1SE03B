@@ -43,7 +43,7 @@ S1S303B Software Engineer
 
 # Video Penjelasan
 <ol>
- <li>1. Penjelasan Kode oleh teguh https://youtu.be/3zx9Ua9a0TQ</li>
+ <li>Penjelasan Kode oleh teguh https://youtu.be/3zx9Ua9a0TQ</li>
 </ol>
 
 # Class Diagram
