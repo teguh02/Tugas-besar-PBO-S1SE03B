@@ -41,3 +41,10 @@ https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/tree
  
 Struktur folder akan dijelaskan lebih lengkap pada bagian penjelasan
 </ul>
+
+# Package Yang Digunakan
+Dibawah ini adalah daftar package module milik node js yang digunakan dalam projek ini
+<ul>
+<li>https://www.npmjs.com/package/prompt-sync</li>
+<li>https://www.npmjs.com/package/password-hash</li>
+</ul>
