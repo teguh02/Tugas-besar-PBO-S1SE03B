@@ -10,7 +10,7 @@ https://github.com/teguh02/Teguh-Rijanandi-19104008-Praktikum-dan-Tugas-PBO/blob
 
 <br><br>
 
-<p>Implementasi OOP Javascript, selain implementasi OOP, kami juga mengimplementasikan :</p>
+Implementasi OOP Javascript, selain implementasi OOP, kami juga mengimplementasikan :
 
 <ul>
 <li>MVC (Model View Controller) </li>
