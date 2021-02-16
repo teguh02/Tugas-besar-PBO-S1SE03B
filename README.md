@@ -44,6 +44,7 @@ S1S303B Software Engineer
 # Video Penjelasan
 <ol>
  <li>Penjelasan Kode oleh teguh https://youtu.be/3zx9Ua9a0TQ</li>
+ <li>Penjelasan class diagram dan cara penggunaan https://youtu.be/KZxdIHuS1ZI</li>
 </ol>
 
 # Class Diagram
